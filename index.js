@@ -9,6 +9,12 @@ const resHead = document.querySelector('#heading');
  
 var userNam = prompt('Please, what is your name');
 
+if (userNam == null) {
+  var userNam = 'Anon';
+}else if (userNam == ''){
+  var userNam = 'Anonymous';
+}
+
 var myDate = new Date();
 var hrs = myDate.getHours();
 
