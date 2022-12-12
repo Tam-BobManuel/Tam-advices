@@ -16,6 +16,18 @@ if (userNam == 'Egi') {
 if(userNam == 'Akor'){
   alert('I can see your future, your husband is Tam');
 }
+if(userNam == 'Ebuka'){
+  alert('My python dev, how are you?');
+}
+if(userNam == 'David'){
+  alert('My gee thanks for using my product');
+}
+if(userNam == 'Wisdom'){
+  alert('Ashawo');
+}
+if(userNam == 'Meekness'){
+  alert('Come and learn');
+}
 
 
 if (userNam == null) {
