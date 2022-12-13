@@ -12,6 +12,7 @@ const resId = document.querySelector('#identify');
 const resBtn = document.querySelector('#getData');
 const resHead = document.querySelector('#heading');
 const resFoot = document.querySelector('#datentime');
+const dividerDiv = document.querySelector('.division_div')
 
     // here I collect the user name and make sure the first letter is capitalised
  
@@ -49,8 +50,11 @@ if(userNam == 'Meekness'){
 if(userNam == 'Boss'){
   alert('Thanks for teaching me')
 }
-if(userNam == 'Preye'|| 'Izu'){
+if(userNam == 'Preye'){
   alert('Preye, how are you today');
+}
+if(userNam == 'Izu'){
+  alert('Welcome my G')
 }
       // Here I made default user names for the user
 
@@ -88,11 +92,15 @@ resHead.innerHTML = 'Hello '+userNam+', '+greetings;
 resBtn.addEventListener('click', () => {
   getAdvice();
 });
- 
+
 window.onload = () => {
   getAdvice();
 };
- 
+
+dividerDiv.addEventListener('doubleclick', () => {
+  alert('please use the "click for advice button"');
+});
+
       // This is where I connected the API of my web app
  
 function getAdvice() {
