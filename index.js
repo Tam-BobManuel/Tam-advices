@@ -41,9 +41,6 @@ if(userNam == 'Ebuka'){
 if(userNam == 'David'){
   alert('My gee thanks for using my product');
 }
-if(userNam == 'Wisdom'){
-  alert('Ashawo');
-}
 if(userNam == 'Meekness'){
   alert('Come and learn');
 }
